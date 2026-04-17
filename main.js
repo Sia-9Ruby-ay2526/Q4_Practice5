@@ -1,10 +1,10 @@
 function checkingPassword(){
-    let passkeyPrivate = "";
+    let password = "Agatite";
     
     do {
-        checkPass = promt ("Enter a password longer than 4 characters.","");
+        checkPass = prompt("Enter a password longer than 4 characters.","Agatite");
     }
     while (checkPass.length < 5);  
     
-    window.alert("entered password:", password);
+    window.alert("entered password:", checkPass);
 }
